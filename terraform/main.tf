@@ -3,7 +3,7 @@ terraform {
     backend "s3" {
         bucket = "chimyapp-bucket"
         key = "myapp/state.tfstate"
-        region = "us-west-1"
+        region = "us-east-1"
     }
 }
 
