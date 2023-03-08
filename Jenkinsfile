@@ -16,7 +16,7 @@ pipeline {
         IMAGE_NAME = 'chummy8091/demo-app:java-maven-2.0'
     }
     stages {
-        stage('build app') {
+        stage('build myapp') {
             steps {
                script {
                   echo 'building application jar...'
